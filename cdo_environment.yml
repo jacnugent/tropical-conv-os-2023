@@ -1,0 +1,8 @@
+name: cdo_only
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cdo
+  - python-cdo
+prefix: /anaconda2/envs/cdo_only
