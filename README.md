@@ -1,2 +1,2 @@
-# TropicalConvOvershoots2023
+# tropical-conv-os-2023
 Code used in Nugent and Bretherton 2023 (in preparation) on the observed distribution of convection that overshoots the cold point.
