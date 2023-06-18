@@ -1,8 +1,6 @@
 """
 bin_obs_overshoot.py
 
-TODO: main function might not be the best practice...
-
 ** TODO: fix documentation/doc strings! **
 
 Module to make plots of IWC binned by brightness
