@@ -8,7 +8,6 @@ SEASON="DJF"
 SCRIPT_PATH="/home/b/b380887/cold-point-overshoot/python_scripts"
 FILE_PATH="/work/bb1153/b380887/big_obs_climo/"$SEASON
 PICKLE_PATH="/home/b/b380887/cold-point-overshoot/pickle_files/climo_tb_cp_hists/"
-# OUT_PATH="/scratch/b/b380887/"
 OUT_PATH=$FILE_PATH
 
 declare -a YearArr=(2007 2008 2009 2010)
