@@ -22,19 +22,10 @@ for season in "${SeasonArr[@]}"; do
     fi
     
     for region in "${RegionArr[@]}"; do
-        # echo "Regridding data onto cold point-relative levels..."
-        # python $SCRIPT_PATH/regrid_data_cp.py -y $YEAR -r $region -m $season -f $FILE_PATH -o $FILE_PATH/$season
-        # echo "Binning by brightness temperature and saving standard plots..."
-        # python $SCRIPT_PATH/bin_obs_overshoot.py -y $YEAR -r $region -m $season -f $FILE_PATH/$season -p $PICKLE_PATH -s $PLOT_PATH
-        # echo "...done with "$region"."
-        
-        # TEMP - year loop
-        for year in "${YearArr[@]}"; do
-            echo $year
-            echo "Binning by brightness temperature and saving standard plots..."
-            python $SCRIPT_PATH/bin_obs_overshoot.py -y $year -r $region -m $season -f $FILE_PATH/$season -p $PICKLE_PATH"Tb_minus_cpT/" -s $PLOT_PATH"Tb_minus_cpT/" 
-        done
-        
+        echo "Regridding data onto cold point-relative levels..."
+        python $SCRIPT_PATH/regrid_data_cp.py -y $YEAR -r $region -m $season -f $FILE_PATH -o $FILE_PATH/$season
+        echo "Binning by brightness temperature and saving standard plots..."
+        python $SCRIPT_PATH/bin_obs_overshoot.py -y $YEAR -r $region -m $season -f $FILE_PATH/$season -p $PICKLE_PATH -s $PLOT_PATH
         echo "...done with "$region"."
     done
     
