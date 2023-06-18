@@ -41,8 +41,7 @@ the files.
 
 Default is to get only heights 12-22 km.
 
-Code to process modified from Adam Sokol's notebook (https://github.com/jacnugent/dyamond-ms/blob/master/
-python_scripts/old/iwp_hists_for_dyamond_From_Adam.ipynb)
+Code to process DARDAR data modified from Adam Sokol - thank you!
 """
 
 import sys
