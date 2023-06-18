@@ -4,10 +4,10 @@ SCRIPT_PATH="/home/disk/eos15/jnug/cold-point-overshoot/python_scripts"
 OUT_PATH="/home/disk/eos15/jnug/MERGIR"
 LINKS_PATH="/home/disk/eos15/jnug/MERGIR/mergir_links_lists"
 
-MONTHS="Dec"
+MONTHS="DJF"
 YEAR=2009
-declare -a RegionArr=("AMZ" "SPC1" "SPC2" "ECP") #IOS # DJF
-#declare -a RegionArr=("IOE" "AFR" "WPC" "ECP") # JJA
+declare -a RegionArr=("AMZ" "IOS" "SPC1" "SPC2" "ECP") # DJF
+# declare -a RegionArr=("AFR" "IOE" "WPC" "ECP") # JJA
 
 for region in "${RegionArr[@]}"; do
     url_list=$LINKS_PATH/subset_$MONTHS$YEAR"_"$region".txt"
