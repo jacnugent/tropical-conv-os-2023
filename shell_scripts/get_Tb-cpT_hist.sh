@@ -13,7 +13,7 @@ OUT_PATH=$FILE_PATH
 declare -a YearArr=(2007 2008 2009 2010)
 
 if [ "$SEASON" == "DJF" ] ; then
-    declare -a RegionArr=(SPC) #AMZ IOS SPC1 SPC2 SPC ECP)
+    declare -a RegionArr=(SPC AMZ IOS ECP)
 elif [ "$SEASON" == "JJA" ] ; then
     declare -a RegionArr=(AFR WPC ECP IOE)
 fi
