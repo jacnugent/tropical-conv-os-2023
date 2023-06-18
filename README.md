@@ -6,12 +6,12 @@ The data used in this paper is not included here and must be downloaded (link) a
 The South Pacific Convergence Zone (SPC) region crosses the International Date Line. For much of the data processing and analysis, this region is split into two halves to avoid any issues with the $\pm$180° longitude. In the code, “SPC1” refers to the eastern half (165°-180° E) and “SPC2” refers to the western half (180°-145° W), while “SPC” refers to the entire region (i.e., SPC1 and SPC2 concatenated by longitude).
 
 ## Data Download
-Downloads one season/year/region at a time. You must first install the CDS API key/client (see [here]( https://cds.climate.copernicus.eu/api-how-to) for instructions).
 ### GPM_MERGIR
+Downloads one season/year/region at a time.
 (_Description coming soon._)
 
 ### ERA5
-Downloads one season/year at a time and then subsets into regions.
+Downloads one season/year at a time and then subsets into regions. You must first install the CDS API key/client (see [here]( https://cds.climate.copernicus.eu/api-how-to) for instructions).
 (_Description coming soon_)
 
 ### DARDAR
