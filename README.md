@@ -3,7 +3,7 @@ Code used in Nugent and Bretherton 2023 (in preparation) on the observed distrib
 
 The data used in this paper is not included here and must be downloaded (link) and processed (link) following the steps listed below. The code used for the analysis and figures (link) is primarily in Jupyter notebooks. Note that the scripts are not designed to be downloaded and run immediately; they must first be edited as specified below.
 
-The South Pacific Convergence Zone (SPC) region crosses the International Date Line. For much of the data processing and analysis, this region is split into two halves to avoid any issues with the $\pm$180° longitude. In the code, “SPC1” refers to the eastern half (165°-180° E) and “SPC2” refers to the western half (180°-145° W), while “SPC” refers to the entire region (i.e., SPC1 and SPC2 concatenated by longitude).
+The South Pacific Convergence Zone (SPC) region crosses the International Date Line. For much of the data processing and analysis, this region is split into two halves to avoid any issues with the +/-180° longitude. In the code, “SPC1” refers to the eastern half (165°-180° E) and “SPC2” refers to the western half (180°-145° W), while “SPC” refers to the entire region (i.e., SPC1 and SPC2 concatenated by longitude).
 
 ## Data Download
 ### GPM_MERGIR
