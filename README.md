@@ -1,5 +1,5 @@
 # tropical-conv-os-2023
-Code used in Nugent and Bretherton 2023 (in preparation) on the observed distribution of convection that overshoots the cold point. 
+Code used in Nugent and Bretherton 2023 (submitted to _Geophysical Research Letters_) on the observed distribution of convection that overshoots the cold point. 
 
 The data used in this paper is not included here and must be [downloaded](https://github.com/jacnugent/tropical-conv-os-2023/#data-download) and [processed](https://github.com/jacnugent/tropical-conv-os-2023/#data-processing) following the steps listed below. The code used for the [analysis and figures](https://github.com/jacnugent/tropical-conv-os-2023/#analysis-and-figures) is primarily in Jupyter notebooks. Note that the scripts are not designed to be downloaded and run immediately; they must first be edited as specified below.
 
