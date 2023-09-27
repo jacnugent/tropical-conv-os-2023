@@ -1,11 +1,10 @@
 cff-version: 1.0
-message: "If you use this software, please cite it as below (doi coming soon)"
+message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Nugent"
   given-names: "Jacqueline"
   orcid: "https://orcid.org/0000-0002-1392-1023"
 title: "Tropical Convection Overshoots - Software"
 version: 1.0
-doi: https://github.com/jacnugent/tropical-conv-os-2023
 date-released: 2023-09-27
 url: "https://github.com/jacnugent/tropical-conv-os-2023"
