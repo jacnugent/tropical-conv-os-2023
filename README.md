@@ -40,7 +40,7 @@ Regrids the GPM_MERGIR brightness temperature and ERA5 temperature/height data o
 ### Joint Histograms
 Calculates the joint brightness temperature-cold point histograms for each season/year. Saves a python dictionary with the histogram counts, bins, etc. to a pickle file.
 1.	Edit [get_Tb-cpT_hist.sh](shell_scripts/get_Tb-cpT_hist.sh) to change the file paths and specify the season. 
-2.	Run [get_Tb-cpT_hist.sh](shell_scripts/get_Tb-cpT_hist.sh). This runs the python script [cold_point_reindex.py](python_scripts/cold_point_reindex.py) to regrid the cold point temperature file _for SPC only_ (needed because of the date line issue) and [biv_hist.py](python_scripts/cold_point_reindex.py) to calculate and save the histogram dictionary. 50 GB memory is recommended for this step.
+2.	Run [get_Tb-cpT_hist.sh](shell_scripts/get_Tb-cpT_hist.sh). This runs the python script [cold_point_reindex.py](python_scripts/cold_point_reindex.py) to regrid the cold point temperature file _for SPC only_ (needed because of the date line issue) and [biv_hist.py](python_scripts/biv_hist.py) to calculate and save the histogram dictionary. 50 GB memory is recommended for this step.
 3.	Repeat for the next season.
 
 
