@@ -1,9 +1,9 @@
 cff-version: 1.1.0
 message: "If you use this software, please cite it as below."
 authors:
-  - family-names: "Nugent"
-    given-names: "Jacqueline M."
-    orcid: "https://orcid.org/0000-0002-1392-1023?
+- family-names: "Nugent"
+  given-names: "Jacqueline"
+  orcid: "https://orcid.org/0000-0002-1392-1023?
 title: "jacnugent/tropical-conv-os-2023: Version 1.0.0"
 version: v1.0.0
 doi: 10.5281/zenodo.8430593
