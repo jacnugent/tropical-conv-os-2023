@@ -1,5 +1,5 @@
 # tropical-conv-os-2023
-Code used in Nugent and Bretherton 2023 (submitted to _Geophysical Research Letters_) on the observed distribution of convection that overshoots the cold point. 
+Code used in Nugent and Bretherton 2023 (_Geophysical Research Letters_, in press) on the observed distribution of convection that overshoots the cold point. 
 
 The data used in this paper is not included here and must be [downloaded](https://github.com/jacnugent/tropical-conv-os-2023/#data-download) and [processed](https://github.com/jacnugent/tropical-conv-os-2023/#data-processing) following the steps listed below. The code used for the [analysis and figures](https://github.com/jacnugent/tropical-conv-os-2023/#analysis-and-figures) is primarily in Jupyter notebooks. Note that the scripts are not designed to be downloaded and run immediately; they must first be edited as specified below.
 
@@ -45,4 +45,21 @@ Calculates the joint brightness temperature-cold point histograms for each seaso
 
 
 ## Analysis and Figures
-(_Description coming soon._)
+#### Figures 1, 2, S2, and S3
+1. Get the counts for the $T_b-T_{cp}$ bins in [obs_climo_Tb-cpT_hists.ipynb](jupyter_notebooks/obs_climo_Tb-cpT_hists.ipynb).
+2. Bin by $T_b-T_{cp}$ and make the figures in [obs_climo_paper_diffs_binned_plots.ipynb](jupyter_notebooks/obs_climo_paper_diffs_binned_plots.ipynb).
+
+#### Figures 3 and S4
+1. The joint histogram counts are saved as pickle files in [biv_hist.py](python_scripts/biv_hist.py).
+2. Calculate the conditional probabilities of overshoots and make the figures in [obs_climo_cond_prob_joint_hists_plot.ipynb](jupyter_notebooks/obs_climo_cond_prob_joint_hists_plot.ipynb).
+
+#### Figure 4
+1. Calculate the frequencies of cold point overshoots and save as netcdf files in [obs_climo_calc_os_freqs.ipynb](jupyter_notebooks/obs_climo_calc_os_freqs.ipynb).
+2. Make the figures and calculate the mean frequencies (including with alternate thresholds) in [obs_climo_overshooting_heatmaps.ipynb](jupyter_notebooks/obs_climo_overshooting_heatmaps.ipynb).
+
+#### Figure S1
+1. Make the time-mean cold point temperature and height files in [get_obs_mean_cpT.ipynb](jupyter_notebooks/get_obs_mean_cpT.ipynb).
+2. Make the figure in [obs_climo_time_mean_cp_maps.ipynb](jupyter_notebooks/obs_climo_time_mean_cp_maps.ipynb).
+
+#### Convective vs. other stratospheric cirrus fractions
+Calculate the fractions in [obs_climo_cirrus_fracs.ipynb](jupyter_notebooks/obs_climo_cirrus_fracs.ipynb).
