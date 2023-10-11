@@ -1,8 +1,6 @@
 """
 bin_obs_overshoot.py
 
-** TODO: fix documentation/doc strings! **
-
 Module to make plots of IWC binned by brightness
 temperature for DARDAR observations. Companion
 to bin_overshoot.py.
@@ -26,7 +24,7 @@ import regrid_data_cp as rdc
 from dask.diagnostics import ProgressBar
 
 
-# Based on SHIELD median cold point/pressure levels...
+# Based on SHIELD median cold point/pressure levels
 REF_DENSITIES = [
     0.180602, # -1000 m
     0.164667, # -500 m

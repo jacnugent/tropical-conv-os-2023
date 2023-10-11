@@ -1,11 +1,6 @@
 """
 cat_files.py
 
-** TODO: can you get it to work where you can do . or ../ in the 
-command line args for file/out paths?**
-** TODO: full prepend of file name doesn't work - gets the first two "_" groups? **
-** TODO: memory issues w/ more than one region for ERA5? **
-
 --------------------------------------------------------------
 usage: cat_files.py [-h] -y YEAR -fp FILE_PATH -r REGIONS [REGIONS ...] -m MONTHS
                     [MONTHS ...] [-op OUT_PATH] [-cl] [-np] [-t]

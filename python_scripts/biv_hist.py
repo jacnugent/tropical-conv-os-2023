@@ -97,8 +97,6 @@ def compute_histogram(cpT_da, tb_da, tb_count, tb_bins=TB_BINS, cpT_bins=CPT_BIN
 
 
 def main():
-    """ docstring
-    """
     args = parse_args()
     print(args)
 
