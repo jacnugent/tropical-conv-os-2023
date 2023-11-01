@@ -1,7 +1,9 @@
 # tropical-conv-os-2023
 [![DOI](https://zenodo.org/badge/654852706.svg)](https://zenodo.org/badge/latestdoi/654852706)
 
-Code used in Nugent and Bretherton 2023 (_Geophysical Research Letters_, in press) on the observed distribution of convection that overshoots the cold point. 
+[![DOI](https://doi.org/10.1029/2023GL105083)](https://doi.org/10.1029/2023GL105083)
+
+Code used in [Nugent and Bretherton (2023), _Geophysical Research Letters_](https://doi.org/10.1029/2023GL105083), on the observed distribution of convection that overshoots the cold point. 
 
 The data used in this paper is not included here and must be [downloaded](https://github.com/jacnugent/tropical-conv-os-2023/#data-download) and [processed](https://github.com/jacnugent/tropical-conv-os-2023/#data-processing) following the steps listed below. The code used for the [analysis and figures](https://github.com/jacnugent/tropical-conv-os-2023/#analysis-and-figures) is primarily in Jupyter notebooks. Note that the scripts are not designed to be downloaded and run immediately; they must first be edited as specified below.
 
